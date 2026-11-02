@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:key="status"
+        android:layout="@layout/preference_status"
+        android:selectable="false"
+        android:title="AOSP Modern QS" />
+
+    <PreferenceCategory android:title="@string/cat_general">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="enabled"
+            android:summary="@string/pref_enabled_summary"
+            android:title="@string/pref_enabled" />
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="debug_log"
+            android:summary="@string/pref_debug_summary"
+            android:title="@string/pref_debug" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/cat_grid">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="modern_grid"
+            android:title="@string/pref_modern_grid" />
+        <SeekBarPreference
+            android:defaultValue="4"
+            android:key="columns"
+            android:max="6"
+            android:title="@string/pref_columns"
+            app:min="2"
+            app:showSeekBarValue="true" />
+        <EditTextPreference
+            android:defaultValue="internet,bt"
+            android:key="large_tiles"
+            android:summary="@string/pref_large_tiles_summary"
+            android:title="@string/pref_large_tiles" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="edit_mode"
+            android:summary="@string/pref_edit_mode_summary"
+            android:title="@string/pref_edit_mode" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/cat_appearance">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="blur"
+            android:title="@string/pref_blur" />
+        <SeekBarPreference
+            android:defaultValue="40"
+            android:key="blur_radius"
+            android:max="100"
+            android:title="@string/pref_blur_radius"
+            app:min="0"
+            app:showSeekBarValue="true" />
+        <SeekBarPreference
+            android:defaultValue="85"
+            android:key="panel_alpha"
+            android:max="100"
+            android:title="@string/pref_panel_alpha"
+            app:min="20"
+            app:showSeekBarValue="true" />
+        <SeekBarPreference
+            android:defaultValue="28"
+            android:key="corner_radius"
+            android:max="48"
+            android:title="@string/pref_corner_radius"
+            app:min="0"
+            app:showSeekBarValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

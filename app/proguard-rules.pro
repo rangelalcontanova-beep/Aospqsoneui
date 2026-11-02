@@ -1,0 +1,3 @@
+-keep class io.github.aospmodernqs.hook.MainHook { *; }
+-keep class io.github.aospmodernqs.ModuleStatus { *; }
+-keep class de.robv.android.xposed.** { *; }

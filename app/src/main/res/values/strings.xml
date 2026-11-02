@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AOSP Modern QS</string>
+    <string name="xposed_description">Quick Settings moderno estilo Android 16/AOSP: tiles 1x1 e 2x1, modo de edição, fundo translúcido e blur.</string>
+
+    <string name="cat_general">Geral</string>
+    <string name="pref_enabled">Ativar módulo</string>
+    <string name="pref_enabled_summary">Desligue para voltar ao comportamento original da SystemUI.</string>
+    <string name="pref_debug">Log de depuração</string>
+    <string name="pref_debug_summary">Escreve no log do LSPosed quais classes foram encontradas/hookadas.</string>
+
+    <string name="cat_grid">Grade de tiles</string>
+    <string name="pref_modern_grid">Grade moderna (1x1 e 2x1)</string>
+    <string name="pref_columns">Colunas</string>
+    <string name="pref_large_tiles">Tiles largos (2x1)</string>
+    <string name="pref_large_tiles_summary">Specs separados por vírgula (ex.: internet,bt,dnd).</string>
+    <string name="pref_edit_mode">Redimensionar no modo de edição</string>
+    <string name="pref_edit_mode_summary">Toque duas vezes num tile no editor para alternar 1x1 / 2x1.</string>
+
+    <string name="cat_appearance">Aparência</string>
+    <string name="pref_blur">Blur do fundo</string>
+    <string name="pref_blur_radius">Raio do blur (dp)</string>
+    <string name="pref_panel_alpha">Opacidade do painel (%)</string>
+    <string name="pref_corner_radius">Cantos arredondados (dp)</string>
+
+    <string name="status_active">Módulo ativo no LSPosed. Reinicie a SystemUI após mudar opções de recursos.</string>
+    <string name="status_inactive">Módulo NÃO está ativo. Ative-o no LSPosed, marque "Interface do sistema" e reinicie.</string>
+</resources>

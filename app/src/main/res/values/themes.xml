@@ -1,0 +1,4 @@
+<resources>
+    <!-- Material You: cores dinâmicas do papel de parede (Android 12+) -->
+    <style name="Theme.AospModernQs" parent="Theme.Material3.DynamicColors.DayNight" />
+</resources>

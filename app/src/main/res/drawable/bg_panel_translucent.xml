@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Painel translúcido (referência visual; na SystemUI o fundo é gerado em código por PanelStyleHook) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/panel_fill" />
+    <corners android:radius="32dp" />
+</shape>
